@@ -73,7 +73,7 @@ class ModelViewer {
         const loader = new GLTFLoader();
         
         loader.load(
-            'scene/scene.gltf',
+            'scene.gltf',
             (gltf) => this.onModelLoad(gltf),
             undefined,
             (error) => console.error('Error loading model:', error)
