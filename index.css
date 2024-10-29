@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #202023;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+
+  .nav-container {
+    backdrop-filter: blur(10px);
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(32, 32, 35, 0.8);
+  }
+
+  .nav-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 6rem 2rem 2rem;
+  }
+
+ 
+  .greeting-box {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  .profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 3rem 0;
+  }
+
+  .profile-info h1 {
+    font-size: 44px;
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #88ccca;
+  }
+
+  .section {
+    margin: 3rem 0;
+  }
+
+  .section-title {
+    font-size: 20px;
+    color: #88ccca;
+    margin-bottom: 1rem;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .social-link {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button {
+    background: #88ccca;
+    color: #202023;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+canvas { 
+    display: block; 
+}
+
+/* Model Viewer */
+.model-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+#model-viewer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

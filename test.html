@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-content">
+            <div class="logo">🚀 Faisal Husseini</div>
+            <div class="nav-links">
+                <div>Works</div>
+                <div>Posts</div>
+                <div>Uses</div>
+                <div>Source</div>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="main-container">
+        <!-- 3D Model Container -->
+        <div class="model-container">
+            <div id="model-viewer"></div>
+        </div>
+        <div class="greeting-box">
+            Hello, I'm a full-stack developer based in Abuja, Nigeria!
+        </div>
+
+        <section class="profile-section">
+            <div class="profile-info">
+                <h1>Faisal Husseini</h1>
+                <p>Digital Craftsman ( Developer, Blockchain, Artificial Intelligence )</p>
+            </div>
+            <img class="profile-image" src="Pasted image.png" alt="">
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Work</h2>
+            <p>
+                I am a freelance and full-stack developer based in Abuja, Nigeria, with a passion for building productivity apps and digital solutions that empower Nigeria. My focus is on creating software that drives the country toward a fully digitalized ecosystem, helping Nigeria thrive in the global digital landscape.
+            </p>
+            <p>
+                My goal is to leverage technology, particularly in blockchain and AI, to build impactful solutions that contribute to Nigeria's development and sustainability.
+            </p>
+            <a href="#" class="button">My Portfolio →</a>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Bio</h2>
+            <div style="display: grid; gap: 1rem">
+                <div>
+                    <span style="color: #888; font-weight: bold">2001</span>
+                    <span style="margin-left: 2rem">Born in Abuja, Nigeria</span>
+                </div>
+                <div>
+                    <span style="color: #888; font-weight: bold">2024</span>
+                    <span style="margin-left: 2rem">Completed MSc in Computer Science</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">I ♥</h2>
+            <p>Basketball, Coding, Reading, Anime</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">On the web</h2>
+            <div class="social-links">
+                <div class="social-link">
+                    <span>💻 GitHub</span>
+                    <span>→</span>
+                </div>
+                <div class="social-link">
+                    <span>💼 LinkedIn</span>
+                    <span>→</span>
+                </div>
+                <div class="social-link">
+                    <span>🐦 Twitter</span>
+                    <span>→</span>
+                </div>
+            </div>
+        </section>
+
+        <footer style="text-align: center; margin-top: 4rem; color: #888">
+            <p>© 2024 Faisal Husseini. All Rights Reserved.</p>
+            <p>Built with Next.js + Chakra UI + Three.js</p>
+        </footer>
+    </main>
+
+    <script async src="https://unpkg.com/es-module-shims/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.159.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.159.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
