@@ -1051,7 +1051,7 @@
   ],
   "images": [
     {
-      "uri": "textures/fireRed_material_baseColor.png"
+      "uri": "fireRed_material_baseColor.png"
     }
   ],
   "materials": [
